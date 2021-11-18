@@ -149,7 +149,7 @@ UI Component에서 state가 필요하다 판단되면, 스토어로부터 저장
     
     `POST` / myclass/teacher/analytics/<int:pk> → 클릭한 통계자료의 세부 사항을 요청
     
-    [tudent]
+    [Student]
     
     `POST` / enterclass/student1 → 앱 연동 여부를 요청
     
