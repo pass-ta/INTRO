@@ -147,9 +147,41 @@ UI Component에서 state가 필요하다 판단되면, 스토어로부터 저장
     
     `POST` / myclass/teacher/analytics → 해당 Class의 모든 통계자료를 요청
     
-    `POST` / myclass/teacher/analytics/<int:pk> → 클릭한 통게자료의 세부 사항을 요청
+    `POST` / myclass/teacher/analytics/<int:pk> → 클릭한 통계자료의 세부 사항을 요청
     
-    [student]
+    [tudent]
+    
+    `POST` / enterclass/student1 → 앱 연동 여부를 요청
+    
+    `POST` / enterclass/student2 → 얼굴인식을 통해 출석부에 존재 여부 요청
+    
+    `POST` / enterclass/studentquiz → 다른 학생들이 만든 지난수업 복습퀴즈 정답 여부 
+    
+    `POST` / enterclass/student3 → WebRTC 입장
+    
+    `POST` / classout/student → 앱 연동 해제 여부 요청
+    
+    `POST` / classout/student/makequiz → 오늘 수업에 대한 복습 퀴즈 생성
+    
+    `POST` / classout/student/teacherquiz → 선생님이 만든 오늘수업 학습확인 퀴즈 정답 여부
+    
+    `GET` / classout/student/analytics/<int:quiz> → 학습확인 퀴즈의 틀린 횟수를 quiz로 전달하고 
+    
+    앱에서 전달 받은 앱차단, 자리이탈 점수를 기반으로 집중도 통계자료를 나타냄
+    
+    `POST` / myclass/student → 입장 했던 Class list를 요청
+    
+    `POST` / myclass/student/<int:pk> → 클릭한 Class의 공지 사항을 요청
+    
+    `POST` / myclass/student/<int:pk>/<int:pkk> → 클릭한 공지 사항의 세부 사항을 요청
+    
+    `POST` / myclass/student/quiz → 해당 Class에서 학습 했던 quiz만 요청
+    
+    `POST` / myclass/student/quiz/<int:pk> → 클릭한 quiz의 세부 사항을 요청
+    
+    `POST` / myclass/student/analytics → 해당 Class의 본인의 통계자료만 요청
+    
+    `POST` / myclass/student/analytics/<int:pk> → 클릭한 통계자료의 세부 사항을 요청
 
 ---
 
