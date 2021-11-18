@@ -107,43 +107,50 @@ UI Component에서 state가 필요하다 판단되면, 스토어로부터 저장
 
 3. ManageServer
 
-    기본 url :: [https://hmys-hiclass.paas-ta.org/](https://hmys-hiclass.paas-ta.org/)
+    기본 url :: [https://hmys-hiclass.paas-ta.org](https://hmys-hiclass.paas-ta.org)
 
     `POST` /  → 사용자 아이디 중복 체크 및 비밀번호 재입력 확인 요청
 
     `POST` / login → 사용자 아이디 및 비밀번호 요청
 
     `GET` / logout → 로그아웃
+    
+    기본 url :: [https://hmys-hiclass.paas-ta.org/home](https://hmys-hiclass.paas-ta.org/home)
+    
+    `GET` / → 로그인 후 첫 페이지 사용자가 선생과 학생에 따라 다른 html 파일을 render
 
-    `POST` / makeroom → STUDY/EXAM 모드에 따라 방생성
+    `POST` / makeclass → 수업을 생성 (선생님만 가능)
 
-    `POST` / makeroom/success → 방 생성 성공 후 방 정보 나열
+    `GET` / makeroom/success → 생성 성공 후 수업 정보 나열 (선생님만 가능)
 
-    `POST` / enteroom/exam1 → EXAM 모드 앱 차단 여부 요청
+    `POST` / enterclass/ → 사용자가 선생이면 'enterclass/makequiz'로, 학생이면 'enterclass/student1'로 render
+    
+    [Teacher]
+    
+    `POST` / enterclass/makequiz → 오늘 수업할 내용에 대해서 퀴즈 생성
 
-    `POST` / enteroom/exam2 → EXAM 모드 얼굴 인식 확인 요청
+    `POST` / enterclass/teacher → WebRTC 입장
+    
+    `POST` / classout/teacher → 수업 종료
+    
+    `POST` / myclass/teacher → 생성한 Class list를 요청
+    
+    `POST` / myclass/teacher/<int:pk> → 클릭한 Class의 공지 사항을 요청
+    
+    `POST` / myclass/teacher/<int:pk>/<int:pkk> → 클릭한 공지 사항의 세부 사항을 요청
+    
+    `POST` / myclass/teacher/<int:pk>/makenotice → 공지 사항 생성
+    
+    `POST` / myclass/teacher/quiz → 해당 Class의 모든 quiz를 요청
+    
+    `POST` / myclass/teacher/quiz/<int:pk> → 클릭한 quiz의 세부 사항을 요청
+    
+    `POST` / myclass/teacher/analytics → 해당 Class의 모든 통계자료를 요청
+    
+    `POST` / myclass/teacher/analytics/<int:pk> → 클릭한 통게자료의 세부 사항을 요청
+    
+    [student]
 
-    `POST` / enteroom/exam3 → EXAM 모드 WebRTC 입장 가능 여부 요청 
-
-    `POST` / enteroom/study1 → STUDY 모드 앱 차단 여부 요청
-
-    `POST` / enteroom/study2 → STUDY 모드 WebRTC 입장 가능 여부 요청
-
-    `GET` / roomout/<int:time>/<str:mode> → mode가 STUDY 일때 해당 사용자의 Analytics에 time이 저장됨
-
-    `POST` / roomout/<int:time>/<str:mode> → App 접근 차단을 해제 하였는지 요청 & mode가 STUDY 일때 저장돤 time, app, person 변수를 바탕으로 level, rate를 측정하고 Analytics 모델에 저장 
-
-    `GET` / roomout/study → session에서 사용자 정보를 가져와 Analytics 모델의 가장 마지막 row를 DB에서 가져와서 집중도 그래프를 그림 
-
-    `POST` / roomout/exam → 시험이 성공적으로 종료 됐는지 요청
-
-    `GET` / list/room → Room DB에서 사용자 이름으로 만들어진 Room을           QuerySet으로 반환후 list 나타냄
-
-    `GET` / list/analytics → Analytics DB에서 사용자 이름으로 만들어진 Analytics를 QuerySet으로 반환후 list 나타냄
-
-    `POST`/ list/analytics/<int:pk> → Analytics List에서 선택한 QuerySet 객체의 
-
-    Primary Key 값과 같은 row를 DB에서 가져와 집중도 그래프를 그려줌 
 ---
 
 ### 🙋‍♂️Role
