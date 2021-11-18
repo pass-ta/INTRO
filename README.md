@@ -3,6 +3,16 @@
 학습 관리 서비스 Hi Class에 접속해보세요!
 https://hmys-hiclass.paas-ta.org/
 ```
+## 시연 알림 사항
+- My Class(수업 관리) 시연시에는 삽입된 데이터들을 잘 보여주기 위해서 <br>
+아래의 아이디로 로그인하여 __데이터베이스__ 수업 확인을 부탁드립니다.
+
+ 구분  | ID|PW|
+|-------|---------------------|-------|
+|&nbsp;학생| sksmsgkstlr@naver.com | 123|
+|선생님 | sosick0412@gmail.com  | 123|
+
+
 # Hi Class,   또 하나의 선생님  
 *HiClass(하이클래스) :: 또 하나의 선생님*
 
