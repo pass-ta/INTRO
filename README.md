@@ -1,3 +1,8 @@
+## Quick Start  
+```
+학습 관리 서비스 Hi Class에 접속해보세요!
+https://hmys-hiclass.paas-ta.org/
+```
 # Hi Class,   또 하나의 선생님  
 *HiClass(하이클래스) :: 또 하나의 선생님*
 
@@ -39,6 +44,8 @@
 ![develop](https://user-images.githubusercontent.com/48875061/142246292-9758d9a1-d975-4efc-9c10-b47dcce5bb5f.png)
 
 ## 🔧 Service Architecture  
+![창업프로젝트 V2 (4)](https://user-images.githubusercontent.com/48875061/142386854-f6f2a4ca-9173-4f29-97a2-0b7b31a1574b.png)
+
 ## 📽️ Video Streaming
 ![undefined (3)](https://user-images.githubusercontent.com/48875061/142192307-818cfbed-69ea-4977-b628-ab9b01b5f8da.jpg)  
 - Peer Connection  
@@ -65,7 +72,10 @@ JavaScript 오픈소스 ( Web Speech API )를 사용하여 React의 실시간 �
 서버로부터 메세지를 전달받게 되면, Dispatch를 통해 스토어에 저장됩니다.  
 UI Component에서 state가 필요하다 판단되면, 스토어로부터 저장된 state값을 불러옵니다.  
 
-### 🐹API
+## 📂 DB 구성도  
+![HiClassDB (2) drawio](https://user-images.githubusercontent.com/48875061/142386960-46f25d7f-4f5d-48e3-a7ff-6625350b5e3b.png)
+
+## 🐹 API
 
 ---
 
@@ -88,7 +98,7 @@ UI Component에서 state가 필요하다 판단되면, 스토어로부터 저장
 
 3. ManageServer
 
-    기본 url :: [https://118.67.131.138:30000](https://118.67.131.138:30010/)
+    기본 url :: [https://hmys-hiclass.paas-ta.org/](https://hmys-hiclass.paas-ta.org/)
 
     `POST` /  → 사용자 아이디 중복 체크 및 비밀번호 재입력 확인 요청
 
