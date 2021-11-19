@@ -196,7 +196,7 @@ UI Component에서 state가 필요하다 판단되면, 스토어로부터 저장
   - *Class 입장 구축*
   - *얼굴인식 출석체크 구축*
   - *자리이탈 확인 OpenCV 구축*
-  - *Retrofit2 통신*  
+  - *Retrofit2 통신*   
   _Django_
   - *퀴즈 생성 및 풀기 구축*
   - *안드로이드 통신*
