@@ -215,15 +215,13 @@ UI Component에서 state가 필요하다 판단되면, 스토어로부터 저장
 - *집중도 통계자료 관리 구축*
 
 @ 김유림  
-  Android
-  - *Android Full Stack 담당*
+  _Android_  - *Android Full Stack 담당*
   - *전체 UI/UX fronted 구축*
   - *로그인/회원가입 구축*
   - *Class 입장 구축*
   - *얼굴인식 출석체크 구축*
   - *자리이탈 확인 OpenCV 구축*
-  - - *Retrofit2 통신*  
-  Django
+  - - *Retrofit2 통신*  Django
   - *퀴즈 생성 및 풀기 구축*
   - *안드로이드 통신*
  
