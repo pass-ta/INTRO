@@ -63,6 +63,14 @@ https://hmys-hiclass.paas-ta.org/
 - ScreenShare  
 `navigator.mediaDevices.getDisplayMedia()`를 통해 화면 콘텐츠를 가져오고
 임시 피어를 생성하여 원격 피어 간 연결 유지합니다.  
+- Sturn Server  
+공개적 주소를 발견하거나 Peer간의 직접 연결의 막는 등의 라우터의 제한을 결정하는 프로토콜입니다. 클라이언트는 인터넷을 통해 클라이언트의 공개 주소와 라우터의 NAT 뒤에 있는 클라이언트가 접근 가능한지에 대한 답변을 위한 요청을 STUN 서버에 보냅니다.
+- ICE(Interactive Connectivity Establishment)  
+브라우저가 Peer을 통한 연결이 가능하게 해주는 프레임워크 입니다. ICE는 이러한 작업을 수행하기 위해 STUN 서버를 사용합니다.
+- SDP(Session Description Protocol)  
+해상도나 형식, 코덱, 암호화등의 멀티미디어 컨텐츠의 연결을 설명하기 위한 표준입니다.
+
+
 ## 📽️ VideoStreaming Features  
 필기모드            |  PDF 변환
 :-------------------------:|:-------------------------:
@@ -190,13 +198,13 @@ UI Component에서 state가 필요하다 판단되면, 스토어로부터 저장
 
 @ 김유림  
   _Android_  
-  - *Android Full Stack 담당*
+  - *Android 담당*
   - *로그인/회원가입 구축*
   - *Class 입장 구축*
   - *얼굴인식 출석체크 구축*
   - *특정(sns)앱 접근 차단*
   - *자리이탈 확인 OpenCV 구축*
-  - *Retrofit2 통신*   
+  - *Retrofit2 통신*  
 _Django_
   - *퀴즈 생성 및 풀기 구축*
   - *안드로이드 통신*
@@ -213,10 +221,11 @@ _Django_
  @김혜원 
  - *실시간 음성인식 구축*
  - *번역 기능 구축*
+ - *depoly*
 
 @ 황한식
 - *django Full Stack 담당*
-- *전체 UI/UX fronted 구축*
+- *django UI/UX fronted 구축*
 - *manage server backend 구축*
 - *로그인/회원가입 구축*
 - *사용자 이미지 변경이 가능한 my page 구축*
