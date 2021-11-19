@@ -224,7 +224,7 @@ UI Component에서 state가 필요하다 판단되면, 스토어로부터 저장
   - *WebRtc를 위한 시그널링 서버 구축*
   - *WebSocket token을 활용한 peer connection*
 
- `@김혜원` 
+ `@ 김혜원` 
   - *Paas-Ta를 이용한 배포*
 * PaaS-TA_Realtime-Client
   - *실시간 음성인식 구축*
