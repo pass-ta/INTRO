@@ -197,7 +197,7 @@ UI Component에서 state가 필요하다 판단되면, 스토어로부터 저장
   - *특정(sns)앱 접근 차단*
   - *자리이탈 확인 OpenCV 구축*
   - *Retrofit2 통신*   
-  _Django_
+_Django_
   - *퀴즈 생성 및 풀기 구축*
   - *안드로이드 통신*
   
