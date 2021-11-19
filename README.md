@@ -3,6 +3,8 @@
 학습 관리 서비스 Hi Class에 접속해보세요!
 https://hmys-hiclass.paas-ta.org/
 ```
+## DEMO  
+[https://www.youtube.com/watch?v=NjNh38PI3P4](https://www.youtube.com/watch?v=NjNh38PI3P4)
 ## 시연 알림 사항
 - 첫수업의 경우 학생들이 만든 지난수업 복습퀴즈는 없기 때문에 생략 됩니다.
 - My Class(수업 관리) 시연시에는 데이터들을 잘 보여주기 위해서<br> 아래의 아이디로 로그인하여 __데이터베이스__ 수업을 확인 할 수 있습니다.
