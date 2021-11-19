@@ -197,7 +197,7 @@ UI Component에서 state가 필요하다 판단되면, 스토어로부터 저장
 ### 🙋‍♂️Role
 
 @ 김유림  
-  &nbsp - _Android_  
+  &nbsp; - _Android_  
   - *Android 담당*
   - *로그인/회원가입 구축*
   - *Class 입장 구축*
@@ -205,7 +205,7 @@ UI Component에서 state가 필요하다 판단되면, 스토어로부터 저장
   - *특정(sns)앱 접근 차단*
   - *자리이탈 확인 OpenCV 구축*
   - *Retrofit2 통신*  
-&nbsp - _Django_
+&nbsp; - _Django_
   - *퀴즈 생성 및 풀기 구축*
   - *안드로이드 통신*
   
