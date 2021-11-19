@@ -189,7 +189,7 @@ UI Component에서 state가 필요하다 판단되면, 스토어로부터 저장
 ### 🙋‍♂️Role
 
 @ 김유림  
-  _ Android _  
+  _Android_  
   - *Android Full Stack 담당*
   - *로그인/회원가입 구축*
   - *Class 입장 구축*
