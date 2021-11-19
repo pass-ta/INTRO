@@ -191,6 +191,24 @@ UI Component에서 state가 필요하다 판단되면, 스토어로부터 저장
     `POST` / myclass/student/analytics → 해당 Class의 본인의 통계자료만 요청
     
     `POST` / myclass/student/analytics/<int:pk> → 클릭한 통계자료의 세부 사항을 요청
+    
+3. Android
+
+    기본 url :: [https://hmys-hiclass.paas-ta.org](https://hmys-hiclass.paas-ta.org)
+
+    `POST` / app_login → 로그인 요청
+
+    `POST` / app_signup → 회원가입
+    
+    `POST` / home/app_enter_room → 방 아이디와 비밀번호를 통한 수업 존재 요청
+    
+    `POST` / home/app_attendance → 학번(출석번호) 이름을 통한 출석체크
+    
+    `POST` / home/app_checkimg → 출석체크를 위한 얼굴 일치 여부 요청
+
+    `POST` / home/app_checkin → 앱 인증 완료했다는 정보 전달
+
+    `POST` / home/app_sendcount → 수업 퇴장 후 사용자 sns앱 접근 회수와 자리이탈 횟수 전달
 
 ---
 
