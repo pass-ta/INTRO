@@ -197,7 +197,7 @@ UI Component에서 state가 필요하다 판단되면, 스토어로부터 저장
 ### 🙋‍♂️Role
 
 `@ 김유림`  
-PaaS-TA_Android_Client
+* PaaS-TA_Android_Client
   - *Android 담당*
   - *로그인/회원가입 구축*
   - *Class 입장 구축*
@@ -206,12 +206,13 @@ PaaS-TA_Android_Client
   - *자리이탈 확인 OpenCV 구축*
   - *Retrofit2 통신*  
 
-PaaS-TA_Manage_Server
+* PaaS-TA_Manage_Server
   - *퀴즈 생성 및 풀기 구축*
   - *안드로이드 통신*
   
- `@ 김준영` 
-PaaS-TA_Realtime-Client
+ `@ 김준영`
+ 
+* PaaS-TA_Realtime-Client
  - *VideoStreaming Layout 구축*
  - *WebSocket token을 활용한 peer connection*
  - *화면 공유 기능 구축*
@@ -220,24 +221,22 @@ PaaS-TA_Realtime-Client
  - *백엔드 실시간 통신 구축*
  - *Redux를 활용한 상태 관리*
 
-PaaS-TA_Realtime_Server
+* PaaS-TA_Realtime_Server
  - *WebRtc를 위한 시그널링 서버 구축*
  - *WebSocket token을 활용한 peer connection*
 
  `@김혜원` 
  - *Paas-Ta를 이용한 배포*
-
-PaaS-TA_Realtime-Client
+* PaaS-TA_Realtime-Client
  - *실시간 음성인식 구축*
- 
-PaaS-TA_Realtime_Server
+* PaaS-TA_Realtime_Server
  - *번역 기능 구축*
- 
-PaaS-TA_Manage_Server
+* PaaS-TA_Manage_Server
   - *자동출석체크를 위한 얼굴 인식* 
 
 `@ 황한식`
-PaaS-TA_Manage_Server
+
+* PaaS-TA_Manage_Server
 - *django Full Stack 담당*
 - *django UI/UX fronted 구축*
 - *django backend 구축*
