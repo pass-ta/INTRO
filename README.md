@@ -38,9 +38,9 @@ https://hmys-hiclass.paas-ta.org/
 ![serviceflow](https://user-images.githubusercontent.com/48875061/142242110-7443ec09-e1db-4751-a4e9-ac9becfa606d.png)
 
 ## 💡 Service UI(example)  
-홈페이지 화면            |  APP 홈 화면
+선생님 홈 화면            |  APP 홈 화면
 :-------------------------:|:-------------------------:
-![pencil](https://user-images.githubusercontent.com/48875061/142193568-bdda8084-8c90-4945-b9c5-a2aacc0fa179.PNG)  |  ![app](https://user-images.githubusercontent.com/48875061/142244903-5640b9de-6985-4b25-979d-e2b7d282eeb4.png)  
+![캡처2](https://user-images.githubusercontent.com/48875061/142723204-32f36709-6c01-432b-8183-f267e8b24c7e.PNG) |  ![app](https://user-images.githubusercontent.com/48875061/142244903-5640b9de-6985-4b25-979d-e2b7d282eeb4.png)  
 
 출석체크          |  집중도 통계자료
 :-------------------------:|:-------------------------:
