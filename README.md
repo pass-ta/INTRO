@@ -255,21 +255,17 @@ UI Component에서 state가 필요하다 판단되면, 스토어로부터 저장
 
 `@ 황한식`
 * PaaS-TA_Manage_Server
-  - *django Full Stack 담당*
-  - *django UI/UX fronted 구축*
-  - *django backend 구축*
-  - *로그인/회원가입 구축*
-  - *사용자 이미지 변경이 가능한 my page 구축*
-  - *Class 생성 및 입장 구축*
-  - *얼굴인식 출석체크 보조*
-  - *퀴즈 기능 보조*
-  - *집중도 통계자료 그래프 기능 구축*
-  - *공지사항 기능 구축*
-  - *퀴즈 관리 구축*
-  - *집중도 통계자료 관리 구축*
+- *django UI/UX 전체 frontend 개발*
+- *django Rest API 설계 및 개발*
+- Luxand API 얼굴인식을 통한 자동출석 기능 구축
+- *로그인/회원가입 개발*
+- *사용자 이미지 변경이 가능한 my page 개발*
+- *Class 생성 및 입장 개발*
+- *집중도 통계자료 그래프 기능 개발*
+- *공지사항 기능 개발*
+- *퀴즈&관리 기능 개발*
 
 
- 
 ### License
 ```
 MIT License
